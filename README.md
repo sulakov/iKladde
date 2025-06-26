@@ -1,5 +1,9 @@
 # iKladde – Digital Recipe Manager
 
+After months of dedicated learning, I've decided to start publishing some of my educational projects.  
+A few of them, I believe, are good enough to live here on GitHub.  
+Today I'm starting with the first one — a digital recipe book built with JavaFX.
+
 **Author:** Eugen Sulakov  
 **Status:** June 2025  
 **Educational project (developed during retraining at GFN)**
@@ -35,12 +39,12 @@
 ## How to Run
 
 Main class:  
-```java
+```
 de.gfn.ikladde.ikladde.IkladdeApp
 ```
 
 Run with Maven:  
-```bash
+```
 mvn clean javafx:run
 ```
 
@@ -64,6 +68,10 @@ Offline usage only – no login, no cloud storage.
 ---
 
 # iKladde – Digitale Rezeptverwaltung
+
+Nach monatelangem intensiven Lernen ist nun die Zeit gekommen, einige meiner Übungsprojekte zu veröffentlichen.  
+Manche davon verdienen es, auf GitHub zu erscheinen.  
+Heute beginne ich mit dem ersten – einer digitalen Rezeptkladde, realisiert mit JavaFX.
 
 **Autor:** Eugen Sulakov  
 **Stand:** June 2025  
@@ -100,12 +108,12 @@ Offline usage only – no login, no cloud storage.
 ## Start der Anwendung
 
 Hauptklasse:  
-```java
+```
 de.gfn.ikladde.ikladde.IkladdeApp
 ```
 
 Starten mit Maven:  
-```bash
+```
 mvn clean javafx:run
 ```
 

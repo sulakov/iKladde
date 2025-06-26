@@ -1,0 +1,200 @@
+/* Hauptcontainer */
+.ikladde-app,
+.sidebar,
+.recipe-center,
+.recipe-details {
+    -fx-background-insets: 0;
+}
+
+/* Hintergrundfarben für Hauptbereiche */
+.ikladde-app {
+    -fx-background-color: #f7f7f7; /* fast weiß, neutral */
+}
+
+.sidebar {
+    -fx-background-color: #dcdcdc; /* kühles hellgrau */
+    -fx-padding: 10;
+    -fx-spacing: 8;
+    -fx-border-color: #bbbbbb;
+    -fx-border-width: 0 1 0 0;
+}
+
+.recipe-center {
+    -fx-background-color: #f5f0e8;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.recipe-details {
+    -fx-background-color: #e4e4e4; /* heller kühler Farbton */
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+/* Allgemeine Buttons */
+.button {
+    -fx-background-color: #cccccc;
+    -fx-border-color: #999999;
+    -fx-border-radius: 6;
+    -fx-text-fill: #2e2e2e;
+}
+
+/* Spezielle Buttons mit zusätzlichem Padding */
+.sort-button,
+.manage-button,
+.portion-button,
+.step-button {
+    -fx-padding: 6 12;
+}
+
+/* Hover-Zustand für Buttons */
+.button:hover {
+    -fx-background-color: #b0b0b0;
+}
+
+/* Spezielle Buttons */
+.manage-button, .sort-button {
+    -fx-font-weight: bold;
+}
+
+/* Rezeptüberschrift */
+.center-recipe-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-fill: #2e2e2e;
+}
+
+/* Bild */
+.recipe-image {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 4, 0.1, 0.1, 1);
+    -fx-border-radius: 8;
+}
+
+/* Portionsknöpfe */
+.portion-button {
+    -fx-background-color: #bdbdbd;
+    -fx-border-radius: 6;
+    -fx-padding: 4 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e2e2e;
+}
+.portion-button:hover {
+    -fx-background-color: #a6a6a6;
+}
+
+/* Tabelle */
+.ingredients-table {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4;
+    -fx-text-fill: #2e2e2e;
+}
+
+/* Titel rechts */
+.right-recipe-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e2e2e;
+}
+
+/* Sternebewertung */
+.rating-control {
+    -fx-padding: 6 3;
+    -fx-pref-height: 32px;
+    -fx-max-height: 32px;
+    -fx-min-height: 32px;
+    -fx-pref-width: 160px;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/* Tags */
+.tags-flow {
+    -fx-padding: 5;
+    -fx-hgap: 6;
+    -fx-vgap: 6;
+    -fx-background-color: transparent;
+}
+
+.tags-flow .label {
+    -fx-background-color: #e0e0e0;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #bcbcbc;
+    -fx-text-fill: #2e2e2e;
+    -fx-padding: 4 10;
+    -fx-font-size: 12px;
+}
+
+/* Schritte */
+.step-area {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4;
+    -fx-padding: 6;
+    -fx-text-fill: #2e2e2e;
+}
+
+/* Schritt-Knöpfe */
+.step-button {
+    -fx-background-color: #cccccc;
+    -fx-border-radius: 6;
+    -fx-padding: 4 10;
+    -fx-text-fill: #2e2e2e;
+}
+.step-button:hover {
+    -fx-background-color: #a6a6a6;
+}
+
+/* Rezepteditor */
+.recipe-editor {
+    -fx-padding: 10;
+    -fx-background-color: #f7f7f7;
+}
+
+.editor-center {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-color: #eeeeee;
+}
+
+.sidebar {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-color: #dcdcdc;
+}
+
+.editor-buttons {
+    -fx-padding: 10 5 5 5;
+    -fx-background-color: transparent;
+}
+
+/* Letzte Änderung (Datum) */
+.last-modified-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #555555;
+}
+
+/* Druckknopf */
+.print-button {
+    -fx-font-size: 13px;
+    -fx-padding: 6 12;
+    -fx-font-weight: normal;
+}
+
+.portion-display-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-alignment: center;
+    -fx-padding: 10 0 5 0;
+}
+
+.step-title-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 0 0;
+    -fx-text-fill: #444;
+}
+
